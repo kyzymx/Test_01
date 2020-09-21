@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ふくろうや</title>
+	<meta name="description" content="*">
+	<!--favicon-->
+	<link rel="icon" href="images/favicon.png">
+	<!--スマホでも正常に閲覧できるように-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link href="style.css" rel="stylesheet">
+	<!--resetCSS-->
+	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+	<!--webfont-->
+	<!--css呼び出し-->
+	<link href="*" rel="stylesheet">
+	
+<!--	bxslider-->
+	<link rel="stylesheet" href="./css/jquery.bxslider.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	
+	<script src="./js/jquery.bxslider.js"></script>
+
+<!--swiper-->
+
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+	<link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+
+	<script src="https://unpkg.com/swiper/js/swiper.js"></script>
+	<script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+
+	<!--Font Awesome-->
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+	<header>
+<!--		<div class="header_wrapper">-->
+		<!--ハンバーガーメニュー(j-Query)-->
+		<div id="header" class="big-bg">
+			<nav>
+				<ul class="#" id="navi">
+					<li><a href="index.html"><img src="images/logo.svg" alt=""></a></li>
+					<li><a class="#" href="index.html#fukrouya">ふくろうやについて</a></li>
+					<!--					<li><a class="#" href="#Storie">店主とふくろう</a></li>-->
+					<li><a class="nav_item1" href="item.html">商品一覧</a></li>
+					<li><a class="nav_item2" href="access.html">店舗のご案内</a></li>
+					<li><a class="nav_item3" href="contact.html">お問い合わせ</a></li>
+				</ul>
+			</nav>
+
+			<div class="nav_btn" id="nav_btn">
+				<span class="hamburger_line hamburger_line1"></span>
+				<span class="hamburger_line hamburger_line2"></span>
+				<span class="hamburger_line hamburger_line3"></span>
+			</div>
+			<div class="nav_bg" id="nav_bg"></div>
+
+		</div>
+		<!--ハンバーガーメニュー(j-Query)-->
+
+		<!--nav-->
+		<a href="index.html"><img class="logo" src="images/logo2.svg" alt="ふくろうやホーム"></a>
+		
+		
+		<div class="index_nav">
+			<nav>
+				<ul class="header_nav" id="nav">
+					<li><a href="#fukurouya">ふくろうやについて</a></li>
+					<li><a href="item.html">商品一覧</a></li>
+					<li><a href="access.html">店舗のご案内</a></li>
+					<li><a href="contact.html">お問い合わせ</a></li>
+					<div class="nav-underline_index"></div>
+				</ul>
+			</nav>
+		</div>
+<!--	</div>-->
+	</header>
+	<!--ヘッダーここまで-->
+
+
+	<section>
+		<div class="top_wrapper wrapper">
+			<img class="top_itemss" src="images/top.png" alt="ふくろうの画像です">
+			<div class="top_text">
+				<p>長野県安曇野市の南アルプスの麓にある</p>
+				<p>ふくろう雑貨屋「ふくろうや」です。</p>
+			</div>
+
+		</div>
+	</section>
+	<!--top_wrapperここまで-->
+
+	<section>
+
+
+
+		<div class="item_wrapper">
+			<div class="item_nav belt ">
+				<h3 class="item_head">商品/Item</h3>
+			</div>
+
+			<div class="top_item">
+				<div class="top_item1 link">
+					<a href="item.html#a"><img class="top_items" src="images/item_01mini.png" alt="ふくろうの画像です"><br>おすすめ/Recommend</a>
+				</div>
+				<div class="top_item2 link">
+					<a href="item.html#b"><img class="top_items" src="images/item_02mini.png" alt="ふくろうの画像です"><br>世界のふくろう/Owl in the world</a>
+				</div>
+				<div class="top_item3 link">
+					<a href="item.html#c"><img class="top_items" src="images/item_03mini.png" alt="ふくろうの画像です"><br>音の出るふくろう/musical owls</a>
+				</div>
+				<div class="top_item4 link">
+					<a href="item.html#d"><img class="top_items" src="images/goods_01mini.png" alt="ふくろうの画像です"><br>ふくろうやグッズ/Goods</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--item_wrapperここまで-->
+
+
+	<section>
+		<div class="slideshow_wrapper" id="Storie">
+			<div class="item_nav belt">
+				<h3>店主とふくろう/Storie</h3>
+			</div>
+
+			<div class="swiper-container">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide"><img class="slideshow_item1" src="images/slideshow01.png" alt="紙芝居"></div>
+
+					<div class="swiper-slide"><img class="slideshow_item1" src="images/slideshow02.png" alt="紙芝居"></div>
+
+					<div class="swiper-slide"><img class="slideshow_item1" src="images/slideshow03.png" alt="紙芝居"></div>
+					<div class="swiper-slide"><img class="slideshow_item1" src="images/slideshow04.png" alt="紙芝居"></div>
+					<div class="swiper-slide"><img class="slideshow_item1" src="images/slideshow05.png" alt="紙芝居"></div>
+
+					<div class="swiper-slide"><img class="slideshow_item1" src="images/slideshow06.png" alt="紙芝居"></div>
+
+					<div class="swiper-slide"><img class="slideshow_item1" src="images/slideshow07.png" alt="紙芝居"></div>
+					<div class="swiper-slide"><img class="slideshow_item1" src="images/slideshow08.png" alt="紙芝居"></div>
+					..
+				</div>
+				<!-- If we need pagination -->
+				<div class="swiper-pagination swiper-pagination-black"></div>
+
+				<!-- If we need navigation buttons -->
+				<div class="swiper-button-prev swiper-button-black"></div>
+				<div class="swiper-button-next swiper-button-black"></div>
+
+			</div>
+
+
+		</div>
+
+		<!--slideshowここまで-->
+
+	</section>
+
+	<section>
+		<div class="main_wrapper" id="fukurouya">
+			<h3 class="item_nav belt">ふくろうやについて/About</h3>
+		</div>
+
+		<div class="about_wrapper_1">
+
+			<div class="about_text_1">
+				<h1> ふくろうの伝説（アイヌ編)</h1>
+
+				<p><br>昔からアイヌ民族に伝わる伝説に、天に住まうイカッカㇻカムイ（造形の神）が美しい大地を作り、人間を作り木や動物を作られた。そのように美しいものはウェンカムイ（悪い神）も欲しがるので見張り役として天の国・神の国からフクロウ神が降ろされた。それ以来モシㇼコㇿカムイ（ 国を守る神）と呼ぶようになった。又、アイヌの村に危険が迫ったりしないよう魔を追い払ったり熊が近付けばらせたりするのでコタンコㇿカムイ（村を守る神）とも呼ぶ。</p>
+			</div>
+
+			<div class="about_img_1">
+				<p><img class="image_01" src="images/owl2.jpg" alt="ふくろうの画像です"></p>
+			</div>
+
+		</div>
+
+
+		<div class="about_wrapper_2">
+			<div class="about_wrapper_2_left">
+
+				<div class="about_img_2">
+					<p><img class="image_02" src="images/house2.jpg" alt="ふくろうの画像です"></p>
+				</div>
+
+				<div class="about_text_2">
+					<h1>ふくろうやについて</h1><br>
+					<p>アイヌ神謡集を読んでふくろうに興味を世界中を旅して、ふくろう雑貨を集めてい一体一体違うふくろうの魅力をお客様の寄り添うふくろうとの出会いの場を作りたいという想い始まったお店です。
+
+						お店に来ていただいて、ふくろう雑貨を手にとってもらい、日常生活で
+						のお客様のパートナーになる、ふく
+						ろうを探していただけると幸いです。</p>
+				</div>
+
+
+
+			</div>
+
+			<div class="about_wrapper_2_right">
+				<div class="about_img_3">
+					<p><img class="image_03" src="images/tencho.png" alt="ふくろうや
+				店主の絵です"></p>
+				</div>
+
+				<div class="about_text_3">
+					<h1>ふくろうや店主</h1><br>
+					<p>浅香　銀次郎</p>
+					<p>穂高地区観光協会の会員</p>
+					<p>ハード系パン屋</p>
+					<p>浅香　銀次郎</p>
+					<p>穂高地区観光協会の会員</p>
+					<p>ハード系パン屋</p>
+					<p>浅香　銀次郎</p>
+					<p>穂高地区観光協会の会員</p>
+					<p>ハード系パン屋</p>
+
+				</div>
+
+
+			</div>
+
+		</div>
+		<!--about_wrapper_2ここまで-->
+	</section>
+
+	<!--アニメーション-->
+
+	<section class="item-list">
+		<div class="loop_wrap">
+			<img src="images/anime01_mini.gif">
+		</div>
+	</section>
+
+	<footer>
+		<div class="footer_wrapper">
+			<p><small>Copyright &copy; 2020ふくろうや</small></p>
+		</div>
+	</footer>
+
+	<p class="button link"><a href="#">^</a></p>
+
+
+	<!--jquery本体-->
+
+	<!--jquery本体ここまで-->
+
+	<!--jqueryプログラムコード-->
+	<!--ハンバーガー-->
+	<script>
+		(function($) {
+
+			/* ------------------------------- */
+
+		})(jQuery);
+
+		/* SP menu */
+		function toggleNav() {
+			var body = document.body;
+			var hamburger = document.getElementById('nav_btn');
+			var blackBg = document.getElementById('nav_bg');
+
+			hamburger.addEventListener('click', function() {
+				body.classList.toggle('nav_open'); //メニュークリックでnav-openというクラスがbodyに付与
+			});
+			blackBg.addEventListener('click', function() {
+				body.classList.remove('nav_open'); //もう一度クリックで解除
+			});
+		}
+		toggleNav();
+	</script>
+	<!--ハンバーガー-->
+
+	<!--jqueryプログラムコードここまで--
+	>-->
+	<!--ここからモーダル-->
+
+	<!--ここからボタンフェイドアウトコード-->
+	<script type="text/javascript">
+		$(function() {
+			// スクロールしたときに実行
+			$(window).scroll(function() {
+				// 目的のスクロール量を設定(px)
+				var TargetPos = 350;
+				// 現在のスクロール位置を取得
+				var ScrollPos = $(window).scrollTop();
+				// 現在位置が目的のスクロール量に達しているかどうかを判断
+				if (ScrollPos >= TargetPos) {
+					// 達していれば表示
+					$(".button").fadeIn();
+				} else {
+					// 達していなければ非表示
+					$(".button").fadeOut();
+				}
+			});
+		});
+	</script>
+	<!--ここからボタンフェイドアウトコード-->
+	<!--ここまでモーダル-->
+
+	<!--スライドショーコード-->
+
+	<!--スライドショーコード-->
+	<script>
+		var mySwiper = new Swiper('.swiper-container', {
+			autoplay: {
+				delay: 3000,
+				stopOnLastSlide: false,
+				disableOnInteraction: false,
+				reverseDirection: false
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			pagination: {
+				el: '.swiper-pagination',
+				type: 'bullets',
+				clickable: true
+			}
+		});
+	</script>
+
+
+
+</body></html>

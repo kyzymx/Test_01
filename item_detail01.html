@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="UTF-8">
+	<title>ふくろうや</title>
+	<meta name="description" content="*">
+	<!--favicon-->
+	<link rel="icon" href="images/favicon.png">
+	<!--スマホでも正常に閲覧できるように-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CSS -->
+	<link href="style.css" rel="stylesheet">
+	<!--resetCSS-->
+	<link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+	<!--webfont-->
+	<!--css-->
+	<link href="*" rel="stylesheet">
+
+	<link rel="stylesheet" href="./css/jquery.bxslider.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="./js/jquery.bxslider.js"></script>
+
+
+</head>
+
+<body>
+
+	<header class="header_wrapper">
+
+		<!--ハンバーガーメニュー(j-Query)-->
+		<div id="header" class="big-bg">
+			<nav>
+				<ul class="#" id="navi">
+					<li><a href="index.html"><img src="images/logo.svg" alt=""></a></li>
+					<li><a class="#" href="index.html#fukrouya">ふくろうやについて</a></li>
+					<!--					<li><a class="#" href="#Storie">店主とふくろう</a></li>-->
+					<li><a class="nav_item1" href="item.html">商品一覧</a></li>
+					<li><a class="nav_item2" href="access.html">店舗のご案内</a></li>
+					<li><a class="nav_item3" href="contact.html">お問い合わせ</a></li>
+				</ul>
+			</nav>
+
+			<div class="nav_btn" id="nav_btn">
+				<span class="hamburger_line hamburger_line1"></span>
+				<span class="hamburger_line hamburger_line2"></span>
+				<span class="hamburger_line hamburger_line3"></span>
+			</div>
+			<div class="nav_bg" id="nav_bg"></div>
+
+		</div>
+		<!--ハンバーガーメニュー(j-Query)-->
+
+		<!--nav-->
+
+		<a href="index.html"><img class="logo" src="images/logo2.svg" alt="ふくろうやホーム"></a>
+		<div class="index_nav">
+			<nav class="head">
+				<ul class="header_nav" id="nav">
+					<li><a href="index.html">ふくろうやについて</a></li>
+					<!--				<li><a href="#Storie">店主とふくろう</a></li>-->
+					<li><a href="item.html">商品一覧</a></li>
+					<li><a href="access.html">店舗のご案内</a></li>
+					<li><a href="contact.html">お問い合わせ</a></li>
+					<div class="nav-underline_index"></div>
+				</ul>
+			</nav>
+		</div>
+
+	</header>
+	<!--ヘッダーここまで-->
+
+
+
+	<div class="top_wrapper wrapper">
+
+	</div>
+	<!--top_wrapperここまで-->
+	<article>
+		<div class="item_nav">
+			<h3 class="item_head">商品詳細 / Detail</h3>
+		</div>
+	</article>
+
+	<section>
+		<div class="detail_wrapper">
+
+			<div class="detail_item_left">
+
+
+				<ul id="bxSlider" class="slider">
+					<li><img src="images/item_01.png" alt="画像1"></li>
+					<li><img src="images/item01right.png" alt="画像2"></li>
+					<li><img src="images/item01sba.png" alt="画像3"></li>
+					<li><img src="images/item01left.png" alt="画像4"></li>
+				</ul>
+
+				<ul id="bx-pager">
+					<li><a data-slide-index="0" href=""><img src="images/item_01.png" alt="サムネイル画像1"></a></li>
+					<li><a data-slide-index="1" href=""><img src="images/item01right.png" alt="サムネイル画像2"></a></li>
+					<li><a data-slide-index="2" href=""><img src="images/item01sba.png" alt="サムネイル画像3"></a></li>
+					<li><a data-slide-index="3" href=""><img src="images/item01left.png" alt="サムネイル画像4"></a></li>
+				</ul>
+			</div>
+
+
+			<div class="detail_item_right">
+				<h4>ブリキのふくろう</h4>
+				<p>¥1,800 (税込)</p>
+				<br>
+				<p>ロシアの怪僧ラスプーチンから</p>
+				<p>作家名をとったロシア人アーティスト</p>
+				<p>によるブリキ製のふくろう。</p>
+				<p>シベリアで取れた黒曜石を目にあしらえ、</p>
+				<p>怪しい雰囲気漂う神秘主義的な作家名とは</p>
+				<p>真逆をいく、かわいいやつ。</p>
+				<br>
+				<p>商品番号01</p>
+				<p>高さ9cm × 幅7.5cm × 奥行き5cm</p>
+				<p>作家名：グリゴリー・ラスプーチン</p>
+				<p>生産国：ロシア / 製作年：2013</p>
+
+
+
+
+			</div>
+
+		</div>
+		<!--detail_wrapperここまで-->
+	</section>
+
+	<div class="back_wrapper">
+		<p><a href="item.html">一覧に戻る</a></p>
+	</div>
+
+	<!--アニメーションです＞-->
+
+	<section class="item-list">
+		<div class="loop_wrap">
+			<img src="images/anime01_mini.gif">
+		</div>
+	</section>
+
+
+	<footer>
+		<div class="footer_wrapper">
+			<p><small>Copyright &copy; 2020ふくろうや</small></p>
+		</div>
+	</footer>
+
+	<p class="button link"><a href="#">^</a></p>
+
+
+	<!--jquery本体-->
+
+	<!--jquery本体ここまで-->
+
+	<!--jqueryプログラムコード-->
+
+	<!--ハンバーガー-->
+	<script>
+		(function($) {
+
+			/* ------------------------------- */
+
+		})(jQuery);
+
+		/* SP menu */
+		function toggleNav() {
+			var body = document.body;
+			var hamburger = document.getElementById('nav_btn');
+			var blackBg = document.getElementById('nav_bg');
+
+			hamburger.addEventListener('click', function() {
+				body.classList.toggle('nav_open'); //メニュークリックでnav-openというクラスがbodyに付与
+			});
+			blackBg.addEventListener('click', function() {
+				body.classList.remove('nav_open'); //もう一度クリックで解除
+			});
+		}
+		toggleNav();
+	</script>
+	<!--ハンバーガー-->
+
+	<!--jqueryプログラムコードここまで--
+	>-->
+	<!--ここからモーダル-->
+
+	<!--ここからボタンフェイドアウトコード-->
+	<script type="text/javascript">
+		$(function() {
+			// スクロールしたときに実行
+			$(window).scroll(function() {
+				// 目的のスクロール量を設定(px)
+				var TargetPos = 350;
+				// 現在のスクロール位置を取得
+				var ScrollPos = $(window).scrollTop();
+				// 現在位置が目的のスクロール量に達しているかどうかを判断
+				if (ScrollPos >= TargetPos) {
+					// 達していれば表示
+					$(".button").fadeIn();
+				} else {
+					// 達していなければ非表示
+					$(".button").fadeOut();
+				}
+			});
+		});
+	</script>
+	<!--ここからボタンフェイドアウトコード-->
+
+	<!--ここまでモーダル-->
+
+
+
+	<!--スライドショーコード-->
+
+	<script>
+		$(document).ready(function() {
+			$('.slider').bxSlider({
+				pagerCustom: '#bx-pager' //サムネイルページャで表示する画像のグループを指定する。
+				//今回は<div id="bx-pager">の部分。
+			});
+		});
+	</script>
+
+	<!--スライドショーコード-->
+
+</body></html>
